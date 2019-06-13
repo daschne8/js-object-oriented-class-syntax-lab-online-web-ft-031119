@@ -1,4 +1,5 @@
-class BoardMember{
+class Ceo{}
+class BoardMember extends Ceo{
   constructor(name,hometown,training){
     this.name = name
     this.hometown = hometown
