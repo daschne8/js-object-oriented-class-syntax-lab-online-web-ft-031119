@@ -7,7 +7,7 @@ class BoardMember{
   veto = function(){
      return 'No, I must disagree'
   }
-  tapprove = function(){
+  approve = function(){
     return 'You can do that!'
   }
   doCharity = function(){
@@ -21,4 +21,4 @@ class BoardMember{
   sayHi = function(){
     return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
   }
-  }
+}
