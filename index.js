@@ -4,4 +4,21 @@ class BoardMember{
     this.hometown = hometown
     this.training = training
   }
-}
+  veto = function(){
+     return 'No, I must disagree'
+  }
+  tapprove = function(){
+    return 'You can do that!'
+  }
+  doCharity = function(){
+    return "I like to help people."
+  }
+
+  releasePressStatement = function(){
+    return "You will see great things from Scuber."
+  }
+
+  sayHi = function(){
+    return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
+  }
+  }
